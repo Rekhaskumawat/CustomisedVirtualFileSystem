@@ -35,7 +35,24 @@ All file data is stored in RAM, making the system non-persistent and ideal for l
         open, close, read, write, lseek
         create, rm, ls
         stat
-          
+
+### Project Structure
+```
+|----CustomisedVirtualFileSystem
+|     |
+|     |----src
+|     |    |----CVFS.cpp
+|     |----ManPageX
+|     |     |----clear.txt
+|     |     |----creat.txt
+|     |     |----exit.txt
+|     |     |----ls.txt
+|     |     |----man.txt
+|     |     |----unlink.txt
+|     |     |----write.txt
+|     |----README.md
+
+```
 ### Custom Shell Interface
 
 Interactive Command-Line Interface (CLI)
